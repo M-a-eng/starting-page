@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<h2>Register Now!</h2>
+</head>
+<body>
+<img src="new5.jpg "width="37" height="25" float="right">
+<!-- Use Get, not Post -->
+<form method="get">
+	First name:<br><input type="text" name="first name" required><br>
+	Last name:<br> <input type="text" name="last name" required><br>
+	Email:<br>     <input type="Email" name="Email" required><br>
+	Birhday:<br>   <input type="date" name="date"><br>
+	Gender:<br><input type="radio" name="Gender" value="Male">Male<br>
+	           <input type="radio" name="Gender" value="Female">Female<br>
+	           <input type="radio" name="Gender" value="Other">Other<br>
+	Pet:<br>   <input type="checkbox" name="Cat"> Cat<br>
+	           <input type="checkbox" name="Dog"> Dog<br>
+	Car:<br>   <select value="cars"><br>
+		       <option value="Volvo" name="Volvo">Volvo</option>
+		       <option value="Mercedes" name="Mercedes">Mercedes</option>
+		       <option value="Woxvagon" name="Woxvagon">Woxvagon</option>
+	</select><br>
+	Field of Study:<br> <input type="text" name="Field" required><br>
+	Degree:<br>  
+			   <input type="radio" name="degree" value="Undergraduated">Undergraduated<br>  
+			   <input type="radio" name="degree" value="Bachelor">Bachelor<br>
+	           <input type="radio" name="degree" value="Master">Master<br>
+	           <input type="radio" name="degree" value="PhD">PhD<br>
+	           <input type="submit" name="submit" value="Register" style="background-color: blue"> 
+	           <input type="reset" name="reset" style="background-color: red">
+</form><br>
+<a href="index.html"><h3> Back </h3></a>
+</body>
+</html>

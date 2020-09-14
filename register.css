@@ -1,0 +1,40 @@
+header{
+
+}
+body{
+	color: green;
+	
+	background-image: url(new4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+	float: right;
+}
+
+h3 {
+color: white;
+
+
+text-rendering: center;
+}
+
+input{
+	
+	text-align: justify-all;
+}
+h2 {
+	color: gold;
+	
+
+}
+form {
+	
+	text-align: unset;
+    text-transform: capitalize;
+    text-anchor: middle;
+    font-family: calibri;
+    font-style: bold;
+    line-height: 20px;
+    display:run-in;
+}

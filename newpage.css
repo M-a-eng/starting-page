@@ -1,0 +1,39 @@
+body{
+	background-image: url(new3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+color: orange;
+}
+header{
+	color: white;
+	border: solid pink 2px;
+	display: inline-block;
+	font-size: 150%;
+	background-color: purple;
+	width: 160px;
+	margin: 0px;
+	text-align: center;
+}
+div{
+	color: white;
+	display: inline-block;
+	font-size: 100%;
+	font-style: italic;
+}
+h2{
+	color: white;
+
+}
+p {
+	color: white;
+	text-align: bottom;
+}
+.nav{
+	color: white;
+    display: inline-block;
+}
+h3{
+	color: white;
+	width: 33px;
+	display: inline-block;
+}
